@@ -27,7 +27,7 @@ Create a new virtual environment:
 virtualenv .env
 source .env/bin/activate
 ```
-
+## Deployment
 If you have installed zappa you can deploy by running 
 ```
 zappa init
@@ -43,7 +43,7 @@ Otherwise, you can start the webserver locally by running
 ```
 flask run
 ```
-
+## Try it out
 Try out API by entering a result for match 1:
 ```
 curl <URL>/moneyball-api/match_id/1 -d "result=10-7" -X PUT
