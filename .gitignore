@@ -1,3 +1,4 @@
 .env
 .git
 zappa_settings.json
+__pycache__

@@ -2,7 +2,7 @@
 
 ## Prerequisites
 ```
-Python 3
+python
 ```
 ## Prerequisites for deployment with zappa
 ```
@@ -44,7 +44,7 @@ Otherwise, you can start the webserver locally by running
 flask run
 ```
 ## Try it out
-Try out API by entering a result for match 1:
+Try out the API by entering a result for match 1:
 ```
 curl <URL>/moneyball-api/match_id/1 -d "result=10-7" -X PUT
 ```
