@@ -17,15 +17,15 @@ git clone https://github.com/felipepoulsen/microball.git
 cd microball
 ```
 
+Install the required packages:
+```
+pip install -r requirements.txt
+```
+
 Create a new virtual environment:
 ```
 virtualenv .env
 source .env/bin/activate
-```
-
-Install the required packages:
-```
-pip install -r requirements.txt
 ```
 
 If you have installed zappa you can deploy by running 
