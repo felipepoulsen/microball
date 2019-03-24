@@ -52,7 +52,7 @@ and reading the result for match 1:
 ```
 curl <URL>/moneyball-api/match_id/1
 ```
-The <URL> is the deployment URL, which is given when running:
+The `<URL>` is the deployment URL, which is given when running:
 ```
 zappa deploy dev
 ```
