@@ -4,7 +4,7 @@ from flask_restplus import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
-name_space = api.namespace('Moneyball APIs', description='Register match results')
+name_space = api.namespace('moneyball-api', description='Register match results')
 
 matches = {}
 
