@@ -4,9 +4,11 @@ from flask_restplus import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
+name_space = api.namespace('main', description='Moneyball APIs')
+
 matches = {}
 
-@api.route('/match_id/<string:match_id>')
+@name_space.route('/match_id/<string:match_id>')
 class LogMatches(Resource):
     def get(self, match_id):
         return {match_id: matches[match_id]}
