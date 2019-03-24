@@ -6,7 +6,7 @@ api = Api(app)
 
 matches = {}
 
-@api.route('/<string:match_id>')
+@api.route('/match_id/<string:match_id>')
 class LogMatches(Resource):
     def get(self, match_id):
         return {match_id: matches[match_id]}
